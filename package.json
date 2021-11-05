@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "dipper-map-homepage",
+  "version": "1.0.0",
+  "description": "静态站点",
+  "author": "",
+  "license": "ISC",
+  "yuyanConfig": {
+    "distDir": "/dist"
+  },
+  "readme": "## 说明\n静态站点无技术栈依赖模板\n",
+  "readmeFilename": "README.md",
+  "_id": "dipper-map-homepage@1.0.0",
+  "yuyanId": "180020010001203048",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.alipay-inc.com/Dipper-Map/dipper-map-homepage.git"
+  }
+}
