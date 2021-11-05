@@ -1,12 +1,11 @@
 {
-  "name": "gatsby-starter-theme-antv",
+  "name": "dipper-map-homepage",
   "private": true,
   "version": "1.0.0",
-  "license": "MIT",
   "homepage": "https://gatsby-starter-theme-antv.antv.vision",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antvis/gatsby-starter-theme-antv"
+    "url": "http://gitlab.alipay-inc.com/Dipper-Map/dipper-map-homepage.git"
   },
   "bugs": {
     "url": "https://github.com/antvis/gatsby-starter-theme-antv/issues"
@@ -37,6 +36,14 @@
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1"
   },
+  "license": "ISC",
+  "yuyanConfig": {
+    "distDir": "/dist"
+  },
+  "readme": "## 说明\n静态站点无技术栈依赖模板\n",
+  "readmeFilename": "README.md",
+  "_id": "dipper-map-homepage@1.0.0",
+  "yuyanId": "180020010001203048",
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
