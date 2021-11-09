@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import * as React from 'react';
 
 const Demo = () => {
-  useEffect(() => {
+  React.useEffect(() => {
     location.replace('https://antv.vision/DipperMap/');
   }, []);
 
