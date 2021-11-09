@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import SEO from '@antv/gatsby-theme-antv/site/components/Seo';
 import { useTranslation } from 'react-i18next';
 import Banner from '@antv/gatsby-theme-antv/site/components/Banner';
@@ -10,23 +10,23 @@ const IndexPage = () => {
   const features = [
     {
       icon:
-        'https://gw.alipayobjects.com/zos/basement_prod/5dbaf094-c064-4a0d-9968-76020b9f1510.svg',
-      title: t('简单方便'),
-      description: t('从数据出发，仅需几行代码可以轻松获得想要的图表展示效果。')
+        'https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*i8JcQZllXXkAAAAAAAAAAAAAARQnAQ',
+      title: t('适配国内/外坐标系'),
+      description: t('支持国内/外地图切换，适配不同经纬度坐标系。')
     },
     {
       icon:
-        'https://gw.alipayobjects.com/zos/basement_prod/0a0371ab-6bed-41ad-a99b-87a5044ba11b.svg',
-      title: t('方便可靠'),
+        'https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*XQ1FQaEmpkMAAAAAAAAAAAAAARQnAQ',
+      title: t('平台组件化'),
       description: t(
-        '大量产品实践之上，提供绘图引擎、完备图形语法，专业设计规范。'
+        '支持以React组件形式引入，针对各个功能提供控制开关。'
       )
     },
     {
       icon:
-        'https://gw.alipayobjects.com/zos/basement_prod/716d0bc0-e311-4b28-b79f-afdd16e8148e.svg',
-      title: t('无限可能'),
-      description: t('任何图表，都可以基于图形语法灵活绘制，满足你无限的创意。')
+        'https://gw.alipayobjects.com/mdn/rms_e7e1c6/afts/img/A*5ZKOTbwQzMsAAAAAAAAAAAAAARQnAQ',
+      title: t('前端静态配置和存储'),
+      description: t('前端离线处理和保存数据，保证数据安全。')
     }
   ];
   const bannerButtons = [
@@ -54,9 +54,9 @@ const IndexPage = () => {
             alt=""
           />
         }
-        title={t('地理数据配置React组件')}
+        title={t('基于L7的开源地理可视分析工具')}
         description={t(
-          'AntV 是蚂蚁金服全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。'
+          '静态配置地图可视化平台，快速完成地理数据图层，让地理数据可视化无边界、无门槛。'
         )}
         className="banner"
         buttons={bannerButtons}

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 const Demo = () => {
   return <div style={{ height: '100vh', width: '100vw' }}>古娜拉</div>;
