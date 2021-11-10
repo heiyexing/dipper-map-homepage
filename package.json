@@ -22,7 +22,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "@antv/dipper-map": "0.0.1",
+    "@antv/dipper-map": "1.0.1",
     "@antv/g2": "^3.5.9",
     "@antv/l7": "^2.5.47",
     "@antv/l7-react": "^2.3.5",

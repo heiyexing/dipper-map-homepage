@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Container } from '@antv/dipper-map';
+import 'antd/dist/antd.css';
 
 const Demo = () => {
   return (
