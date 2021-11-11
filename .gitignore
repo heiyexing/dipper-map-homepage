@@ -70,5 +70,4 @@ yarn-error.log
 .yarn-integrity
 .idea
 .history
-dist/
 package-lock.json
